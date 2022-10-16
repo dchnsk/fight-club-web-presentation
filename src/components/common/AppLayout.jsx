@@ -5,7 +5,7 @@ export const AppLayout = ({ children }) => {
     return (
         <>
             <AppHeader />
-            {children}
+            <div className="mt-28">{children}</div>
             <AppFooter />
         </>
     );

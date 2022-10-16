@@ -6,7 +6,7 @@ export const MainSection = () => {
         <section
             id="#section1"
             className="
-                min-h-600 w-full mt-20 
+                min-h-600 w-full
                 text-secondary flex flex-col
                 md:justify-start items-center
             "
