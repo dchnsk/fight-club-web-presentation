@@ -1,12 +1,14 @@
 {
     "name": "fight-club-web-presentation",
-    "version": "0.1.0",
+    "version": "0.9.0",
     "private": true,
+    "homepage": "https://dchnsk.github.io/fight-club-web-presentation/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
         "@testing-library/user-event": "^13.5.0",
         "react": "^18.2.0",
+        "react-anchor-link-smooth-scroll": "^1.0.12",
         "react-dom": "^18.2.0",
         "react-player": "^2.11.0",
         "react-router-dom": "^6.4.2",
@@ -15,9 +17,11 @@
     },
     "scripts": {
         "start": "craco start",
-        "build": "craco build",
+        "build": "react-scripts build",
         "test": "craco test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
@@ -40,6 +44,7 @@
     "devDependencies": {
         "autoprefixer": "^10.4.12",
         "craco": "^0.0.3",
+        "gh-pages": "^4.0.0",
         "postcss": "^8.4.18",
         "tailwindcss": "^3.1.8"
     }

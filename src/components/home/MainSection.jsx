@@ -1,5 +1,6 @@
 import React from 'react';
-import { AppConstants } from '../../constants';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Contents } from '../../constants';
 
 export const MainSection = () => {
     return (
@@ -28,31 +29,32 @@ export const MainSection = () => {
                     <div className="max-w-xs">
                         <img src="images/fc-poster.jpg" alt="Fight Club poster" className="object-cover" />
                         <div className="mt-4">
-                            <a href="#player">
+                            <AnchorLink offset={'120'} href="#player">
                                 <button
                                     className="
-                                        cursor-pointer border p-2
-                                        border-color-secondary rounded-lg
+                                        p-2 
+                                        cursor-pointer
+                                        border border-color-secondary rounded-lg
                                         text-color-secondary
                                     "
                                 >
                                     Смотреть Трейлер
                                 </button>
-                            </a>
+                            </AnchorLink>
                         </div>
                     </div>
                     <div className="ml-5 max-w-lg">
-                        <h1 className="text-3xl text-start">Бойцовский клуб (1999)</h1>
+                        <h1 className="text-3xl text-start">{Contents.filmTitleAdopted}</h1>
                         <span className="w-full flex opacity-60 my-1">
-                            <h3 className="text-2xl mr-2">Fight Club</h3>
+                            <h3 className="text-2xl mr-2">{Contents.filmTitleOriginal}</h3>
                             <span className="p-0.5 border rounded-md">18+</span>
                         </span>
-                        <h4 className="text-2xs mt-4 mb-2">Жанр: Триллер, Драма, Криминал</h4>
-                        <h4 className="text-2xs my-2">Страна: США, Германия</h4>
-                        <h4 className="text-2xs my-2">Слоган: "Интриги. Хаос. Мыло"</h4>
+                        <h4 className="text-2xs mt-4 mb-2">Жанр: {Contents.filmJenres.join(', ')}</h4>
+                        <h4 className="text-2xs my-2">Страна: {Contents.filmCountries.join(', ')}</h4>
+                        <h4 className="text-2xs my-2">Слоган: {Contents.filmTagline}</h4>
                         <div>
-                            <h2 className="text-2xl">O фильме:</h2>
-                            <span className="">{AppConstants.filmDescription}</span>
+                            <h2 className="text-2xl">Cюжет фильма:</h2>
+                            <span className="">{Contents.filmDescription}</span>
                         </div>
                     </div>
                 </div>
@@ -60,7 +62,7 @@ export const MainSection = () => {
                     <div className="flex flex-col">
                         <span>Актеры:</span>{' '}
                         <div>
-                            {AppConstants.filmActors.map((actor) => (
+                            {Contents.filmActors.map((actor) => (
                                 <span className="opacity-60">
                                     <a
                                         className="
@@ -94,7 +96,7 @@ export const MainSection = () => {
                                     href="https://www.kinopoisk.ru/name/2944/"
                                     className="cursor-pointer opacity-60 hover:text-color-secondary"
                                 >
-                                    Дэвид Финчер
+                                    {Contents.filmDirector}
                                 </a>
                             </span>
                         </div>
