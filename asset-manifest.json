@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/fight-club-web-presentation/static/css/main.d5e1f2f3.css",
-    "main.js": "/fight-club-web-presentation/static/js/main.5265f2ef.js",
+    "main.css": "/fight-club-web-presentation/static/css/main.fdf0a499.css",
+    "main.js": "/fight-club-web-presentation/static/js/main.548ee4ec.js",
     "static/js/787.c63af2c6.chunk.js": "/fight-club-web-presentation/static/js/787.c63af2c6.chunk.js",
     "index.html": "/fight-club-web-presentation/index.html",
-    "main.d5e1f2f3.css.map": "/fight-club-web-presentation/static/css/main.d5e1f2f3.css.map",
-    "main.5265f2ef.js.map": "/fight-club-web-presentation/static/js/main.5265f2ef.js.map",
+    "main.fdf0a499.css.map": "/fight-club-web-presentation/static/css/main.fdf0a499.css.map",
+    "main.548ee4ec.js.map": "/fight-club-web-presentation/static/js/main.548ee4ec.js.map",
     "787.c63af2c6.chunk.js.map": "/fight-club-web-presentation/static/js/787.c63af2c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5e1f2f3.css",
-    "static/js/main.5265f2ef.js"
+    "static/css/main.fdf0a499.css",
+    "static/js/main.548ee4ec.js"
   ]
 }
