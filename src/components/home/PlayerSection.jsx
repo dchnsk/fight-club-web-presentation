@@ -17,10 +17,11 @@ export const PlayerSecion = () => {
                             },
                         },
                     }}
+                    url="videos/trailer.mp4"
                     light="images/trailer-cover.png"
                     width={'100%'}
-                    url="videos/trailer.mp4"
-                    controls={true}
+                    playing
+                    controls
                 />
             </div>
         </section>

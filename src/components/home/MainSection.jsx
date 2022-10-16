@@ -26,7 +26,7 @@ export const MainSection = () => {
                         sm:flex-row 
                     "
                 >
-                    <div className="max-w-xs">
+                    <div className="max-w-xs mb-3 sm:mb-0">
                         <img src="images/fc-poster.jpg" alt="Fight Club poster" className="object-cover" />
                         <div className="mt-4">
                             <AnchorLink offset={'120'} href="#player">
@@ -43,7 +43,7 @@ export const MainSection = () => {
                             </AnchorLink>
                         </div>
                     </div>
-                    <div className="ml-5 max-w-lg">
+                    <div className="sm:ml-5 max-w-lg">
                         <h1 className="text-3xl text-start">{Contents.filmTitleAdopted}</h1>
                         <span className="w-full flex opacity-60 my-1">
                             <h3 className="text-2xl mr-2">{Contents.filmTitleOriginal}</h3>

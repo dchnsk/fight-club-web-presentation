@@ -30,4 +30,9 @@ export const Contents = {
         { id: 11, name: 'John Doe', position: 'Trailer Editing', image: '' },
         { id: 12, name: 'John Doe', position: 'Trailer Editing', image: '' },
     ],
+    officialSocialMedias: [
+        { id: 0, url: '', title: 'Facebook', imageSrc: 'images/facebook-icon.png' },
+        { id: 1, url: '', title: 'Vk', imageSrc: 'images/vkpng.png' },
+        { id: 2, url: '', title: 'Twitter', imageSrc: 'images/twitter.png' },
+    ],
 };
