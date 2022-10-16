@@ -35,4 +35,19 @@ export const Contents = {
         { id: 1, url: '', title: 'Vk', imageSrc: 'images/vkpng.png' },
         { id: 2, url: '', title: 'Twitter', imageSrc: 'images/twitter.png' },
     ],
+    faq: [
+        { id: 0, question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw?', answer: 'Aasqweuioq kjasnd qwiehqw e' },
+        { id: 1, question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw?', answer: 'Aasqweuioq kjasnd qwiehqw e' },
+        {
+            id: 2,
+            question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw asdhjqwuie qweuhq askda sdhaskh ?',
+            answer: 'Aasqweuioq ',
+        },
+        { id: 3, question: 'Aaskdja ?', answer: 'Aasqweuioq kjasnd asjd qwiehqw e' },
+        {
+            id: 4,
+            question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw asldkjas?',
+            answer: 'Aasqweuioq kjasnd askdj  qwiehqw e',
+        },
+    ],
 };
