@@ -2,6 +2,7 @@
     "name": "fight-club-web-presentation",
     "version": "0.9.0",
     "private": true,
+    "homepage": "https://dchnsk.github.io/fight-club-web-presentation/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
