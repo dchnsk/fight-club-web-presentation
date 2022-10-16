@@ -15,7 +15,7 @@ module.exports = {
                 'main-bg': '#0f0f0f',
             },
             backgroundImage: {
-                'unknown-person': "url('../src/assets/images/unknown.png')",
+                'unknown-person': "url('../../src/assets/images/unknown.png')",
             },
         },
     },

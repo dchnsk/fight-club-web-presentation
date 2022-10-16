@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import React from 'react';
-import '../../../index.css';
+import '../../../styles/index.css';
 
 export const HeaderTab = ({ children, route }) => (
     <Link to={route}>
