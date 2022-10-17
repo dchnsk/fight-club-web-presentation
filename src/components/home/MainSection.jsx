@@ -8,7 +8,7 @@ export const MainSection = () => {
             id="#section1"
             className="
                 min-h-600 w-full
-                text-secondary flex flex-col
+                text-primary flex flex-col
                 md:justify-start items-center
             "
         >
@@ -34,8 +34,8 @@ export const MainSection = () => {
                                     className="
                                         p-2 
                                         cursor-pointer
-                                        border border-color-secondary rounded-lg
-                                        text-color-secondary
+                                        border border-hightlight rounded-lg
+                                        text-secondary
                                     "
                                 >
                                     Смотреть Трейлер
@@ -67,7 +67,7 @@ export const MainSection = () => {
                                     <a
                                         className="
                                             transition-colors cursor-pointer 
-                                            hover:text-color-secondary
+                                            hover:text-secondary
                                         "
                                         rel="noreferrer"
                                         target="_blank"
@@ -94,7 +94,7 @@ export const MainSection = () => {
                                     rel="noreferrer"
                                     target="_blank"
                                     href="https://www.kinopoisk.ru/name/2944/"
-                                    className="cursor-pointer opacity-60 hover:text-color-secondary"
+                                    className="cursor-pointer opacity-60 hover:text-secondary"
                                 >
                                     {Contents.filmDirector}
                                 </a>

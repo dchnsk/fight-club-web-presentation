@@ -15,7 +15,7 @@ export const TeamSection = () => (
                 items-center justify-around mt-5 
             "
         >
-            <h1 className="text-secondary text-3xl">Our Team</h1>
+            <h1 className="text-primary text-3xl">Our Team</h1>
             <div
                 class="
                     flex flex-wrap flex-row
@@ -24,10 +24,10 @@ export const TeamSection = () => (
                 "
             >
                 {Contents.teamMembers.map((person) => (
-                    <div key={person.id} className="text-color-primary flex flex-col items-center m-4">
+                    <div key={person.id} className="text-primary flex flex-col items-center m-4">
                         <div
                             className="
-                                bg-unknown-person bg-contain bg-[right_bottom_-8px] bg-primary
+                                bg-unknown-person bg-contain bg-[right_bottom_-8px] bg-hightlight
                                 w-[100px] h-[100px]  
                                 rounded-full
                             "

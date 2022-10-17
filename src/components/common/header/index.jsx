@@ -13,13 +13,13 @@ export const AppHeader = () => {
             z-10 top-0 
             flex flex-col justify-between content-center
             h-28 py-2
-            bg-main-bg fixed w-full
+            bg-secondary fixed w-full
         "
         >
             <div
                 className="
                 flex justify-center text-center
-                text-color-secondary font-bold text-5xl
+                text-secondary font-bold text-5xl
             "
             >
                 Fight Club
@@ -28,7 +28,7 @@ export const AppHeader = () => {
                 className="
             flex justify-center items-center
             h-7  
-             text-secondary"
+             text-primary"
             >
                 {tabs.map((tab) => {
                     return (

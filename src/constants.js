@@ -16,7 +16,7 @@ export const Contents = {
         { name: 'Холт Маккэллани', url: 'https://www.kinopoisk.ru/name/8151/' },
     ],
     teamMembers: [
-        { id: 0, name: 'Valerii Dycahsnkyi', position: 'Programmer' },
+        { id: 0, name: 'Valerii Dycahsnkyi', position: 'Programmer', image: '' },
         { id: 1, name: 'John Doe', position: 'Trailer Editing', image: '' },
         { id: 2, name: 'John Doe', position: 'Trailer Editing', image: '' },
         { id: 3, name: 'John Doe', position: 'Trailer Editing', image: '' },
@@ -36,18 +36,18 @@ export const Contents = {
         { id: 2, url: '', title: 'Twitter', imageSrc: 'images/twitter.png' },
     ],
     faq: [
-        { id: 0, question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw?', answer: 'Aasqweuioq kjasnd qwiehqw e' },
-        { id: 1, question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw?', answer: 'Aasqweuioq kjasnd qwiehqw e' },
+        { id: 0, question: 'Рельная ли Марла Сингер?', answer: '🤔' },
+        {
+            id: 1,
+            question: 'В принципе реально ли все происходящее в фильме или это все в голове у главного героя?',
+            answer: '🤔',
+        },
         {
             id: 2,
-            question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw asdhjqwuie qweuhq askda sdhaskh ?',
-            answer: 'Aasqweuioq ',
+            question: 'Выжил ли Тайлер?',
+            answer: 'Нет такого',
         },
-        { id: 3, question: 'Aaskdja ?', answer: 'Aasqweuioq kjasnd asjd qwiehqw e' },
-        {
-            id: 4,
-            question: 'Aaskdja sdasjkd ajskdhadiqweuqweqw euqw asldkjas?',
-            answer: 'Aasqweuioq kjasnd askdj  qwiehqw e',
-        },
+        { id: 3, question: 'В чем все-таки философия Тайлера?', answer: '🤔' },
     ],
 };
+    
